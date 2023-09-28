@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+.calculator{
+  width: 90%;
+}
+.display{
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.btn, button{
+  width: 20vw;
+  height: 40px;
+  font-size: 3vw;
+  border: none;
+  background: rgb(17, 86, 102);
+  cursor: pointer;
+  color: #fff;
+  border-radius: 7px;
+}
+button:hover{
+  background: rgb(23, 121, 143);
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-size: 2em;
+}
+.h1{
+  font-size: 1.07em;
+}
+.btns {
+  margin-bottom: 10px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius:  20px 10px 0px 0px;
+  padding: 10px 0px;
+}
+
+footer p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+footer a {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(23, 121, 143);
+}
